@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-gilded-rose",
+  "version": "1.0.0",
+  "description": "GildedRose kata with a twist",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update": "node --experimental-vm-modules src/main.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggalmazor-training/nodejs-gilded-rose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggalmazor-training/nodejs-gilded-rose/issues"
+  },
+  "homepage": "https://github.com/ggalmazor-training/nodejs-gilded-rose#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
